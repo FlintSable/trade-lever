@@ -14,9 +14,6 @@ TradeLeverCalc is a Python library designed to provide core calculation function
 
 To install TradeLeverCalc, simply use pip:
 
-```bash
-pip install tradelevercalc
-
 - **Software Architecture:
 trade-lever/
 ├── trade_lever/
