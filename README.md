@@ -16,3 +16,15 @@ To install TradeLeverCalc, simply use pip:
 
 ```bash
 pip install tradelevercalc
+
+- **Software Architecture:
+trade-lever/
+├── trade_lever/
+│   ├── calculator/           # Core calculations
+│   ├── portfolio/            # Position/portfolio management
+│   ├── execution/            # Order execution
+│   └── data/                 # Market data (basic)
+├── cli/
+├── tui/
+├── web/
+└── tests/
