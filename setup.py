@@ -1,11 +1,7 @@
-
-### setup.py for TradeLeverCalc
-
-```python
 from setuptools import setup, find_packages
 
 setup(
-    name='tradelevercalc',
+    name='trade-lever',
     version='0.1.0',
     author='Nicholas Noochla-or',
     author_email='nnlaor@gmail.com',
@@ -20,4 +16,9 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    entry_points={
+        'console_scripts': [
+            'tradelever=cli.main:main',
+        ],
+    },
 )
